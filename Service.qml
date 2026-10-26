@@ -39,7 +39,7 @@ Item {
 
   // The neon sweep belongs to the GTA VI theme; every other theme locks and
   // unlocks exactly like the stock plugin.
-  readonly property bool animatedTheme: themeName === "gta-vi"
+  readonly property bool animatedTheme: themeName === "gta-vi" || themeName === "gta6"
 
   readonly property bool locked: lockRequested || sessionLock.locked || sessionLock.secure
 
